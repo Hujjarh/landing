@@ -1,0 +1,291 @@
+body{
+    margin: 0 50px;
+    padding: 0;
+    /* border: 2px solid; */
+   
+}
+
+.firstSection{
+    margin: 0px 50px;
+    background-image: url(./assets/bg-heroImg.svg);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.link{
+    /* border: 2px solid; */
+}
+
+.link a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.landing{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+ #BN{
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 2, 139);
+    color: #fff;
+ }
+
+ .content{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 100px 0; */
+    height: 100vh;
+    /* border: 2px solid springgreen; */
+    align-items: center;
+    /* background-image: url(./assets/bg-heroImg.svg); */
+ }
+
+
+ .hero-image{
+    /* border: 2px solid darkred; */
+    /* background-color: blue; */
+    
+    width: 400px;
+    height: 400px;
+    margin-right: -30px;
+
+ }
+ 
+ .hero-image img {
+    width: 400px;
+    /* border: 2px solid red; */
+ }
+
+ .hero-content{
+    width: 500px;
+ }
+
+ .hero-content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+ .hero-content p{
+    font-size: medium;
+    word-spacing: 3px;
+    line-height: 2em;
+    margin-bottom: 3em;
+    color: #778899;
+ }
+
+ .btn{
+    display: flex;
+    gap: 20px;
+ }
+
+ .btn button{
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 2, 139);
+    color: #fff;
+ }
+
+#diff{
+    background-color: #fff;
+    color: #000000;
+}
+
+.secondSection{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green;  */
+    gap: 30px;
+}
+
+.title{
+    display: flex;
+    gap: 20px;
+}
+
+.subtitle p{
+    font-size: 13px;
+    word-spacing: 3px;
+}
+
+.subHero-content{
+    width: 500px;
+    margin-bottom: 50px;
+    /* border: 2px solid orange; */
+}
+
+.subHero-content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subHero-content > p{
+    color: #778899;
+    word-spacing: 3px;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.subHero-image{
+    width: 50%;
+    /* border: 2px solid green; */
+}
+
+.subHero-image img{
+    width: 500px;
+}
+
+.thirdSection, .fourthSection, .fifthSection{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green;  */
+    gap: 30px;
+}
+
+.thirdSection img{
+    width: 300px;
+    /* border: 2px solid blue; */
+}
+
+.happyImage{
+    width: 60%;
+}
+
+
+.fourthSection img{
+    width: 300px;
+}
+
+
+.fifthSection img{
+    width: 300px;
+}
+
+.dummyTest h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    /* border: 2px solid red; */
+}
+
+.dummyTest{
+    width: 700px;
+    /* border: 2px solid green; */
+}
+
+.dummyTest p{
+    color: #778899;
+    word-spacing: 3px;
+    line-height: 1.5em;
+    margin-bottom: 30px;   
+}
+
+
+.finalSection{
+    background-image: url(./assets/Rectangle.svg);
+    margin: 0px 50px;
+    border: 1px solid lightsteelblue; 
+}
+
+.center{
+    text-align: center;
+    margin: 5rem 15rem ;
+    /* border: 2px solid red; */
+}
+
+.center h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #00008b;
+}
+
+.center p{
+    font-size: small;
+}
+
+.center button{
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 2, 139);
+    color: #fff;
+}
+
+.center h5{
+    color: #00008b;
+    font-size: 35px;
+}
+
+span{
+    font-size: 12px;
+    color: inherit;
+}
+
+.dummyTest > button{
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 2, 139);
+    color: #fff;
+}
+
+.footer{
+    display: block;
+    justify-content: space-between;
+    border: 1px solid;
+    border-color: #778899;
+  
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    padding: 30px;
+    
+}
+
+.footnote{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    margin: 20px;
+}
+
+.flinks{
+    display: flex;
+    gap: 20px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 20px;
+}
+
+.bottom #land{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+.bottom nav button{
+    width: 100px;
+    padding: 3px;
+    background-color: rgba(0, 2, 139);
+    color: #fff;
+}
